@@ -50,6 +50,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -62,6 +63,7 @@ p {
   text-transform: uppercase;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 76px;
 }
 
 .header-logo-decor {
@@ -72,7 +74,6 @@ p {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  gap: 76px;
 }
 
 .header-navigation-list {
@@ -122,12 +123,12 @@ p {
 .hero-container {
   flex-direction: column;
   align-items: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -150,6 +151,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  min-width: 169px;
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
@@ -165,9 +167,12 @@ p {
 
 /* ----------ADVANTAGES--------- */
 
+.advantage {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .advantage-container {
-  margin-top: 120px;
-  margin-bottom: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -231,12 +236,12 @@ p {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-container {
   display: block;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-list {
@@ -249,15 +254,12 @@ p {
   background-color: #fff;
   width: calc((100% - 3 * 24px) / 4);
   padding-bottom: 32px;
+  padding-top: 32px;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.list-content {
-  margin-top: 32px;
 }
 
 .list-title {
@@ -267,10 +269,13 @@ p {
 
 /* ----------PORTFOLIO--------- */
 
-.portfolio-container {
-  display: block;
+.portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.portfolio-container {
+  display: block;
 }
 
 .portfolio-list {
@@ -283,17 +288,13 @@ p {
 .portfolio-list-item {
   border: 1px solid #e7e9fc;
   background: #fff;
-  padding-bottom: 32px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
   width: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio-list-item img {
   max-width: 100%;
-}
-
-.portfolio-list-content {
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 /* -------------------- */
@@ -302,12 +303,17 @@ p {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-container {
   display: block;
-  padding-top: 102px;
-  padding-bottom: 100px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-decor {
@@ -318,7 +324,6 @@ p {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 18px;
   max-width: 264px;
 }
 
