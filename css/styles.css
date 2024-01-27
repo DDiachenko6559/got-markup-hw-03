@@ -61,6 +61,9 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header-logo {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 76px;
@@ -209,6 +212,7 @@ p {
 }
 
 .advantage-list-items {
+  display: block;
   width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -224,10 +228,6 @@ p {
 .list-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.images {
-  display: block;
 }
 
 /* -------------------- */
